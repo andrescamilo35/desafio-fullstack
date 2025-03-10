@@ -1,0 +1,68 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-btn:hover {
+    background-color: #218838;
+  }
+  
+  .user-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
